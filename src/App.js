@@ -5,6 +5,7 @@ import {Homepage} from "./pages/Homepage";
 import {Notfoundpage} from "./pages/Notfoundpage";
 import {Layout} from "./components/Layout";
 import {Users} from "./pages/Users";
+import {HookExamples} from "./pages/HookExamples";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Route path='/' element={<Layout/>}>
                 <Route index element={<Homepage/>}/>
                 <Route path='users' element={<Users/>}/>
+                <Route path='hook-examples' element={<HookExamples/>}/>
                 <Route path='*' element={<Notfoundpage/>}/>
             </Route>
         </Routes>

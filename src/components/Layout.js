@@ -10,6 +10,9 @@ const Layout = () => {
                 <li className="nav-item">
                     <a className="nav-link" href="/users">users</a>
                 </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/hook-examples">hook-examples</a>
+                </li>
             </ul>
             <div className="wrapper">
                 <Outlet/>
